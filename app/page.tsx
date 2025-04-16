@@ -85,8 +85,8 @@ export default function Home() {
 
       {/* Content container */}
       <div className="relative z-10 max-w-4xl mx-auto px-4 py-16 md:py-24">
-        <header className="mb-16 "><h1 className="text-4xl md:text-7xl font-bold mb-6 text-red-500 ">
-          The 90 Days
+        <header className="mb-16 "><h1 className="text-2xl md:text-6xl font-bold mb-6 text-red-500 ">
+        The Clock is Loud Today
         </h1>
           <div className="w-full h-0.5 bg-red-500 mx-auto mb-auto"></div>
         </header>
@@ -94,134 +94,64 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="md:col-span-2">
             <article className="prose prose-invert prose-red max-w-none">
-              <p className="text-xl font-semibold mb-6">I wasn't supposed to build this.</p>
+              {/* <p className="text-xl font-semibold mb-6">I wasn't supposed to build this.</p> */}
 
               <p className="mb-4 leading-relaxed">
-                Nobody asked for it.
+              The clock is loud today,
                 <br />
-                Nobody funded it.
+                Each second — a scream I can't quiet.
                 <br />
-                And frankly, I'm not even sure the world is ready for what's coming.
+                I blink,
+                <br/>
+                And another day slips through fingers I never closed.
+                </p>
+
+              <p className="mb-4 leading-relaxed">
+              I thought I had time.
+                <br />I thought tomorrow would wait.
+                <br /> But tomorrow sprinted past me
+                <br />While I stood, still learning how to walk.
+              </p>
+              <p className="mb-4 leading-relaxed">
+              My hands are bare.
+                <br />My mind, a silent fog.
+                <br /> My heart ?
+                <br />It's crying louder than my eyes
+              </p>
+
+              {/*
+
+*/}
+             
+             <p className="mb-4 leading-relaxed">
+             I keep saying "I’ll start" —
+                <br />Like a mirage
+                <br />On a road I’m scared to walk alone. 
+              </p>
+
+              <p className="mb-4 leading-relaxed">  
+              "No one sees this war."
+              <br /> No one hears these whispers.
+              <br /> But they’re louder than any lecture I’ve ever ignored.
               </p>
 
               <p className="mb-4 leading-relaxed">
-                It began like all dangerous things do —<br />A whisper in the dead of night.
-                <br />A single thought that refused to die.
-              </p>
-
-              <p className="mb-4 leading-relaxed">
-                I tried to sleep.
-                <br />I tried to forget.
-                <br />
-                But some ideas aren't born — they awaken.
-              </p>
-
-              <p className="mb-4 leading-relaxed">
-                Before I knew it, I was sketching symbols, not systems.
-                <br />
-                Code turned into glyphs.
-                <br />
-                Prototypes became rituals.
-                <br />
-                Sleep became a forgotten luxury.
-              </p>
-
-              <p className="mb-4 leading-relaxed">
-                Days bled into nights.
-                <br />
-                Reality blurred.
-                <br />I wasn't just building something anymore...
-                <br />
-                It was building me.
-              </p>
-
-              <p className="mb-4 leading-relaxed">
-                Then, everything changed.
-                <br />
-                The clock began ticking.
-              </p>
-
-              <p className="text-2xl font-bold text-red-500 my-6 ">90 days.</p>
-
-              <p className="mb-4 leading-relaxed">
-                No team.
-                <br />
-                No noise.
-                <br />
-                No roadmap.
-                <br />
-                Just me, a screen, and a growing sense that I've crossed some invisible threshold.
-              </p>
-
-              <p className="mb-4 leading-relaxed">
-                This isn't a startup.
-                <br />
-                It's not a side project.
-                <br />
-                It's not even a product anymore.
-              </p>
-
-              <p className="mb-4 leading-relaxed">
-                It's a rift.
-                <br />A fracture in the ordinary.
-                <br />
-                An idea that clawed its way out of the void — and chose me to give it form.
-              </p>
-
-              <p className="mb-4 leading-relaxed">
-                I don't know what happens when it's done.
-                <br />
-                Maybe it talks back.
-                <br />
-                Maybe it rewrites me.
-              </p>
-
-              <p className="mb-4 leading-relaxed">But I know this:</p>
-
-              <p className="mb-4 leading-relaxed">
-                If it works,
-                <br />
-                You won't use it.
-                <br />
-                You'll witness it.
-              </p>
-
-              <p className="mb-4 leading-relaxed">
-                And if it fails?
-                <br />
-                Then I'll vanish with it —<br />
-                Just a fool who tried to bend reality… and almost succeeded.
+              Three months left.
+              <br /> But it already feels like the end.
+              <br /> And I,
+              <br /> Still searching for where I begin.
               </p>
             </article>
           </div>
 
           <div className="md:col-span-1">
             <div className="sticky top-8">
-              <div className="border border-red-600 p-4 mb-6 bg-black bg-opacity-70 backdrop-blur-sm rounded-xl">
-                <h2 className="text-xl font-bold mb-3 text-red-400">The Mastermind</h2>
-                <div className="relative w-full aspect-square mb-4 overflow-hidden">
-                  <Image
-                    src="/mastermind.png"
-                    alt="The Mastermind"
-                    fill
-                    className="object-cover transition-all duration-700 hover:scale-10"
-                    priority
-                  />
-                </div>
-
-                <div className="flex justify-center items-center ">
-                <p className="text-red-500 text-xl text-wrap font-semibold">
-                  Founder / CEO - SHIVAM
-                </p>
-                </div>
-              </div>
-
               <div
                 id="countdown-container"
-                className="border border-red-500 p-4 bg-black bg-opacity-70 backdrop-blur-sm rounded-xl  "
+                className="border border-red-500 p-6 bg-black bg-opacity-70 backdrop-blur-sm rounded-xl  "
               >
                 <div className="text-center">
-                  <div className="text-3xl font-mono text-red-500 mb-2" id="countdown">
+                  <div className="text-4xl font-mono text-red-500 mb-2" id="countdown">
                     --:--:--:--
                   </div>
                   
@@ -238,8 +168,6 @@ export default function Home() {
 
         <footer className="mt-24 py-6 border-t border-gray-800">
       <div className="flex flex-col md:flex-row justify-between items-center">
-        <div className="text-sm text-gray-500">all rights reserved ©{new Date().getFullYear()}</div>
-
         <div className="mt-4 md:mt-0 flex space-x-4">
           <a href="https://x.com/Shivam_01Kumar" className="text-sm text-gray-500 hover:text-red-400 transition-colors">
            x
