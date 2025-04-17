@@ -143,27 +143,6 @@ export default function Home() {
               </p>
             </article>
           </div>
-
-          <div className="md:col-span-1">
-            <div className="sticky top-8">
-              <div
-                id="countdown-container"
-                className="border border-red-500 p-6 bg-black bg-opacity-70 backdrop-blur-sm rounded-xl  "
-              >
-                <div className="text-center">
-                  <div className="text-4xl font-mono text-red-500 mb-2" id="countdown">
-                    --:--:--:--
-                  </div>
-                  
-                  {/* <div id="completion-message" className="hidden mt-4">
-                    <p className="text-xl font-bold text-red-600 animate-pulse">Those were hard days but I did it!!</p>
-                    <p className="text-sm text-gray-400 mt-2">The journey is complete. The transformation is done.</p>
-                    <p className="text-sm text-gray-400 mt-2">There is no roll back</p>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
 
         <footer className="mt-24 py-6 border-t border-gray-800">
@@ -175,16 +154,11 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/shivam-yeshu/" className="text-sm text-gray-500 hover:text-red-400 transition-colors">
             linkedin
           </a>
-          {/* <a href="#" className="text-sm text-gray-500 hover:text-red-400 transition-colors">
-            telegram
-          </a> */}
+      
         </div>
       </div>
         </footer>
       </div>
-
-      {/* Countdown component */}
-      <Countdown />
     </main>
   )
 }
